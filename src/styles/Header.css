@@ -1,0 +1,223 @@
+header{
+  background-color: #2a3e4c;
+}
+#header-list {
+  width: 100%;
+  background-color: #2d4250;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  max-height: 22vh;
+}
+
+.header-list-item {
+  width: 30vw;
+
+  margin: 0 auto;
+}
+
+.header-list-item img{
+  max-width:90%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.invoice-list {
+  margin-top: 1rem;
+  font-size: 2vw;
+  color: rgb(255 255 255);
+  margin-left: 10px;
+}
+
+#crud-bar-buttons {
+  width: 100%;
+  margin-top: 2rem;
+  background-color: #2a3e4c;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  padding: 0 1rem;
+}
+
+#three-buttons {
+  width: 500px;
+  height: 2.6rem;
+  
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+#refresh-btn {
+  padding: 0.8rem;
+  border: 1px solid #14aff1;
+  height: 70%;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  margin:0 1rem;
+}
+
+.three-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.4%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #14aff1;
+  cursor: pointer;
+
+  text-transform: uppercase;
+
+}
+
+.left{
+  border-radius: 5px 0 0 5px;
+}
+
+.right{
+  border-radius: 0px 5px 5px 0px;
+}
+
+.predict {
+  background-color: #14aff1;
+  border-color: white;
+  color:white !important;
+}
+
+.predict:hover{
+  background-color: #14aff1 !important;
+}
+#modal-container {
+  position: "absolute";
+  top: "50%";
+  left: "50%";
+  width: 400;
+
+  border: "2px solid #000";
+  width: 30%;
+  height: 50%;
+  background-color: aquamarine;
+}
+
+.add-modal {
+  width: 900px;
+}
+
+.box-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.box-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 90%;
+  flex-wrap: wrap;
+}
+
+.span-cancel {
+  width: 47%;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin: 5px;
+}
+
+.three-one:hover,
+.span-cancel:hover {
+  background-color: #14aff1;
+  border-color: white;
+}
+
+#refresh-btn:hover {
+  background-color: rgb(246, 246, 246);
+}
+
+.disabled {
+  
+  cursor: default;
+  border-color: #1c2a34;
+ 
+}
+
+.disabled:hover {
+  background-color: transparent;
+  border-color: #1c2a34;
+}
+
+.input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+
+.flex-between {
+  justify-content: space-between;
+}
+.css-1480iag-MuiInputBase-root-MuiInput-root
+{
+  width: 198.5px !important;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+
+.css-7lszx5-MuiDataGrid-root
+{
+  border: none !important;
+  box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.653);
+  border-radius:0 0 5px 5px;
+}
+
+@media screen and (max-width: 700px) {
+  * {
+    font-size: 14px;
+  }
+
+  .invoice-list {
+    font-size: 20px !important;
+  }
+
+  form{
+    justify-content: space-evenly;
+  }
+
+
+}
+
